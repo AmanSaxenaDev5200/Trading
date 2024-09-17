@@ -1,0 +1,5 @@
+{
+    "rewirte": [
+        {"source": "/(.*)", "destination": "/"}
+    ]
+}
