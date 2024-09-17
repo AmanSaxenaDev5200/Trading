@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HODLINFO</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-top">
+                <button>INR</button>
+                <button>BTC</button>
+                <button>BUY BTC</button>
+                <button class="connect-btn">Connect Telegram</button>
+            </div>
+            <h1>HODLINFO</h1>
+            <div class="price-info">
+                <p>Best Price to Trade</p>
+                <h2>₹ 26,56,110</h2>
+                <div class="percentages">
+                    <span>0.1% (5 Mins)</span> |
+                    <span>0.96% (1 Hour)</span> |
+                    <span>2.73% (1 Day)</span> |
+                    <span>7.51% (7 Days)</span>
+                </div>
+                <p>Average BTC/INR net banking across exchanges</p>
+            </div>
+        </header>
+
+        <div class="banner">
+            <p>Learn Basics of Cryptocurrency</p>
+            <p>Join our courses from Basic to Advanced Crypto-Trading.</p>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Platform</th>
+                    <th>Last Traded Price</th>
+                    <th>Buy / Sell Price</th>
+                    <th>Difference</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody id="exchange-table">
+                <!-- Rows will be populated here via JS -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

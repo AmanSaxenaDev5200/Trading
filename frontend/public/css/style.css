@@ -1,0 +1,134 @@
+/* General body and container styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-top button {
+    background-color: #1e1e1e;
+    color: #00ffcc;
+    border: 1px solid #00ffcc;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-top .connect-btn {
+    background-color: #00ffcc;
+    color: #121212;
+}
+
+.header-top button:hover {
+    background-color: #00e6b3;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #00ffcc;
+    text-transform: uppercase;
+}
+
+.price-info {
+    background-color: #1c1c1c;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #00ffcc;
+}
+
+.price-info h2 {
+    font-size: 3rem;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.percentages {
+    color: #00ffcc;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Banner section */
+.banner {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    color: #00ffcc;
+    font-weight: bold;
+    border: 1px solid #00ffcc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+tbody td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #444;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #1c1c1c;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #2c2c2c;
+}
+
+tbody tr td {
+    font-size: 1rem;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Button styling to match the first image */
+button {
+    background-color: #00ffcc;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #121212;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00e6b3;
+}
